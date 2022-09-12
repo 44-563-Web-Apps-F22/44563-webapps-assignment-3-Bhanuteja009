@@ -39,5 +39,60 @@
             <li>CROWN CENTER</li>
         </ul>
         <a href="aboutme.html">Click here to know about Bhanuteja</a>
+        <hr>
+        <h1>Usage of table tags in web page</h1>
+        <h2>The following table gives the info about the places to visit some of 
+            cities in india along with the minimum amount of time one has to spend there.</h2>
+        <table border="6px" height="50px">
+            <tr>
+                <th>City Name</th>
+                <th>Imp Location</th>
+                <th>Time to spend</th>
+            </tr>
+            <tr>
+                <td>Agra</td>
+                <td>Taj Mahal</td>
+                <td>2 hours</td>
+            </tr>
+            <tr>
+                <td>Mumbai</td>
+                <td>Gateway of India</td>
+                <td>2:30 hours</td>
+            </tr>
+            <tr>
+                <td>Mysore</td>
+                <td>Mysore palace</td>
+                <td>4 hours</td>
+            </tr>
+            <tr>
+                <td>Coorg</td>
+                <td>Dubare spot</td>
+                <td>4 hours</td>
+            </tr>
+            <tr>
+                <td>Goa</td>
+                <td>Candolim beach</td>
+                <td>6 hours</td>
+            </tr> 
+        </table>
+        <hr>
+        <h1>Usage of block quote tags</h1>
+        <blockquote cite="https://stackoverflow.com/questions/18238393/creating-slideshow-jquery">
+        <h3>How to create slideshow in Jquery???</h3>
+        </blockquote>
+        <a href="https://stackoverflow.com/questions/18238393/creating-slideshow-jquery">
+            Click here to view the reference
+        </a>
+        <pre>
+            $("#slideshow > div:gt(0)").hide();
+            setInterval(function() { 
+            $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+            }, 3000);
+        </pre>
     </body>
 </html>
